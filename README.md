@@ -23,5 +23,16 @@ Write a Java program that uses different access and non-access modifiers.
     - Print each student’s info
     - Print the total number of students by accessing the static variable
 
+```java
+public class Student {
 
+    /* add your code here */
+
+    public static void main(String[] args) {
+      /* add your code here */
+    
+    }
+
+}
+```
 
