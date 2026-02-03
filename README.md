@@ -10,7 +10,7 @@ Write a Java program that uses different access and non-access modifiers.
 
 ### Implementation
 
-- Create a `Student` class with:
+- Define a `Student` class with:
     - A **private** variable`name`
     - A **public** setter and getter methods for the `name` variable
     - A **protected** variable `age`
