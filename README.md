@@ -14,7 +14,7 @@ Write a Java program that demonstrates the usage of access and non-access modifi
     - A **private** variable`name`
     - A **public** setter and getter methods for the `name` variable
     - A **protected** variable `age`
-    - A **final** variable `SCHOOL_NAME` initialized to " Tuwaiq Academy"
+    - A **final** variable `SCHOOL_NAME` initialized to "Tuwaiq Academy"
     - A **static** variable `studentCount` to track how many `Student` objects have been created
     - A **public** method `displayInfo` to display a student's info, including name, age, and school
 
