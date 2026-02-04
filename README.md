@@ -2,11 +2,11 @@
 # Modifiers Project
 
 ### Objective
-Understand and use Java’s modifiers.
+In this project, our main goal is to understand how to use various modifiers in Java.
 
 ### Problem
 
-Write a Java program that uses different access and non-access modifiers.
+Write a Java program that demonstrates the usage of access and non-access modifiers.
 
 ### Implementation
 
@@ -15,13 +15,15 @@ Write a Java program that uses different access and non-access modifiers.
     - A **public** setter and getter methods for the `name` variable
     - A **protected** variable `age`
     - A **final** variable `SCHOOL_NAME` initialized to " Tuwaiq Academy"
-    - A **static** variable `studentCount` to track how many students object that have been created
-    - A **public** method to display a student's info, including name, age, and school
+    - A **static** variable `studentCount` to track how many `Student` objects have been created
+    - A **public** method `displayInfo` to display a student's info, including name, age, and school
+
 - In `main` method:
     - Create two `Student` objects
     - Set their names and ages
-    - Print each student’s info
-    - Print the total number of students by accessing the static variable
+    - Call `displayInfo()` for each student to print their details
+    - Print the total number of students using the `studentCount` variable
+
 
 ```java
 public class Student {
@@ -35,4 +37,3 @@ public class Student {
 
 }
 ```
-
